@@ -12,6 +12,11 @@ public class ReverseArray_02_06 {
     }
 
     // 배열 a 요소를 역순 정렬
+    // a.length = 5
+    // 0 1 2 3 4
+    // 인덱스 0 -> 4로 이동 5-0-1 = 4
+    // 인덱스 1 -> 3로 이동 5-1-1 = 3
+
     static void reverse(int[] a) {
         for (int i = 0; i < a.length / 2; i++) {
             swap(a, i, a.length - i - 1);

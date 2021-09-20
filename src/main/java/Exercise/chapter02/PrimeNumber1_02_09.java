@@ -1,6 +1,6 @@
 package Exercise.chapter02;
 
-public class PrimeNumber1 {
+class PrimeNumber1_02_09 {
     public static void main(String[] args) {
         int counter = 0;
 
